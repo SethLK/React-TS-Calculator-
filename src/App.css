@@ -1,0 +1,24 @@
+.grid_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* creates four columns of equal width */
+    grid-gap: 10px; /* adds a 10px gap between each button */
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px; /* adds 10px of padding to the top, bottom, left, and right of each button */
+    background-color: #0fc77a; /* sets the background color of each button to gray */
+    border: none; /* removes the border from each button */
+    color: #000000; /* sets the text color of each button to white */
+    font-size: 16px; /* sets the font size of the text inside each button to 16px */
+
+  }
+input {
+    padding: 10px; /* adds 10px of padding to the top, bottom, left, and right of the input field */
+    font-size: 16px; /* sets the font size of the text inside the input field to 16px */
+    border: none; /* removes the border from the input field */
+    border-radius: 5px; /* adds a 5px rounded border to the input field */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* adds a subtle box shadow to the input field */
+    border: none;
+  }
+  
